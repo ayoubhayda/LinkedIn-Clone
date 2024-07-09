@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+  @apply w-full max-w-[540px] md:max-w-[720px] lg:max-w-[1130px]  mx-auto;
+}
+
+.navLink {
+  @apply flex flex-col items-center justify-center text-gray-700;
+}
+
+.navIcon {
+  @apply size-6;
+}
+
+.navText {
+  @apply text-[12px] font-[400] hidden md:flex;
+}
